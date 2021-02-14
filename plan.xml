@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan rocrailversion="2.1.999-327" rocrailpwd="/home/pi/rocrail" rocrailos="linux" rocrailip="raspberrypi" donkey="false" healthy="false" title="New Plan" remark="">
+  <zlevel title="Level 0"/>
+  <boosterlist/>
+  <lightctrl converted="true"/>
+  <competition/>
+</plan>
