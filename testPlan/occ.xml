@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modocc>
+  <occ bkid="bk1" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bk2" lcid="Ge 4/4 625" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bk3" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bk4" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bk5" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bk6" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
+  <occ bkid="bk7" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+</modocc>
