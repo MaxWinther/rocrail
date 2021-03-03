@@ -23,9 +23,11 @@
   <occ bkid="bkHsp4n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp4s" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkIsp1" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkIsp3" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkIspHn" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkspHLn" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bkIsp3" lcid="Ge 6/6 702" auto="true" closed="false" placing="2" blockenterside="2"/>
+  <occ bkid="bkHsp5n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bkHsp5s" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bkIspHn" lcid="Rens" auto="true" closed="false" placing="2" blockenterside="2"/>
+  <occ bkid="bkspHLn" lcid="G 3/4 11" auto="true" closed="false" placing="2" blockenterside="1"/>
   <occ bkid="bkspHInw" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp1n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
@@ -33,7 +35,10 @@
   <occ bkid="bkHsp1" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp2" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp3" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bkHspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp4" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp2n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bkHspHs" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp2s" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
+  <occ bkid="bkTspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
 </modocc>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plan rocrailversion="2.1.999-327" rocrailpwd="/home/pi/rocrail" rocrailos="linux" rocrailip="raspberrypi" donkey="false" healthy="false" title="New Plan" remark="">
+<plan rocrailversion="2.1.1360" rocrailpwd="/Users/maxwinther/lgb/sommerhus/rocrail" rocrailos="macOS" rocrailip="10.76.215.103" donkey="false" healthy="true" title="New Plan" remark="" rocrailarch="X86_64">
   <zlevel title="Level 0"/>
   <boosterlist/>
   <lightctrl converted="true"/>

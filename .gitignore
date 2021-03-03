@@ -1,3 +1,4 @@
 *.bak
-*/trace/*
-./backup/*
+*trace*
+backup/*
+testPlan/backup/*
