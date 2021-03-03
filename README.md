@@ -1,5 +1,5 @@
 
-## rocrail trackplan
+## Trackplan
 
 ### Sensors
 
@@ -10,7 +10,6 @@ Sensors are mapped to mXion in the interface tab setting the follwing
 - `Address` is set to the programmed address in mXion plus 1
 
 ## rocrail.ini
-
 
 ### Set up mXion
 
