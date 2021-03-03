@@ -1,5 +1,13 @@
 
+## rocrail trackplan
 
+### Sensors
+
+**Setup**
+Sensors are mapped to mXion in the interface tab setting the follwing
+- `Interface ID` to md
+- `Node ID` aka `Bus` for Z21 protocol to 1 which actually stands for responses comming from LocoNet
+- `Address` is set to the programmed address in mXion plus 1
 
 ## rocrail.ini
 
