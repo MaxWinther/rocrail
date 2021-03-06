@@ -21,41 +21,49 @@ From tables below in phase 2, isolators 20 and 14
 - Main station 16 and 11
 - Main line 4 and 3
 
-| Station | Track | Block | Isolartor | Sensor | Phase |
-|---------|-------|-------|-----------|--------|-------|
-| Main    | 1     |       | 3         | 2      | 1     |
-|         | 2     |       | 3         | 2      | 1     |
-|         | 3     |       | 4         | 3      | 2     |
-|         | 4N    |       | 3         | 2      | 2     |
-|         | 4S    |       | 3         | 2      | 2     |
-|         | 5N    |       | 3         | 2      | 2     |
-|         | 5N    |       | 3         | 2      | 2     |
-| Total   |       |       | 6         | 4      | 1     |
-|         |       |       | 16        | 11     | 2     |
+Feedback modules
+1. Main station; block track 1 and track 2. Main line block to Terrase switch, and one sensor in block Lake to Terrase switch. One free sensor
+2. Lake station; block track 1 and track 2. Main Line switch to Lake, and two sensors in block Lake to Terrase switch.  No free sensors.
+3. Driveway; blocks and sideways on station plus single main line block. No free sensors
 
 
-| Station | Track | Block | Isolartor | Sensor | Phase |
-|---------|-------|-------|-----------|--------|-------|
-| Lake    | 1     |       | 3         | 2      | 1     |
-|         | 2     |       | 3         | 2      | 1     |
-| Total   |       |       | 6         | 4      | 1     |
+| Station | Track | Block | Isolartor | Sensor | Phase | FB       |
+|---------|-------|-------|-----------|--------|-------|----------|
+| Main    | 1     |       | 3         | 2      | 1     | 1A 1B    |
+|         | 2     |       | 3         | 2      | 1     | 1C 2D    |
+|         | 3     |       | 4         | 3      | 2     |          |
+|         | 4N    |       | 3         | 2      | 2     |          |
+|         | 4S    |       | 3         | 2      | 2     |          |
+|         | 5N    |       | 3         | 2      | 2     |          |
+|         | 5N    |       | 3         | 2      | 2     |          |
+| Total   |       |       | 6         | 4      | 1     |          |
+|         |       |       | 16        | 11     | 2     |          |
 
 
-| Station | Track | Block | Isolartor | Sensor | Phase |
-|---------|-------|-------|-----------|--------|-------|
-| Driveway| 1     |       | 3         | 2      | 1     |
-|         | 2     |       | 3         | 2      | 1     |
-| Total   |       |       | 6         | 4      | 1     |
+| Station | Track | Block | Isolartor | Sensor | Phase | FB       |
+|---------|-------|-------|-----------|--------|-------|----------|
+| Lake    | 1     |       | 3         | 2      | 1     | 2A 2B    |
+|         | 2     |       | 3         | 2      | 1     | 2C 2D    |
+| Total   |       |       | 6         | 4      | 1     |          |
 
 
-| From    | To      | Block   | Isolartor | Sensor | Phase |
-|---------|--------|----------|-----------|--------|-------|
-| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     |
-| Ter.sw  | Lake   | bkspHLn  | 4         | 3      | 1     |
-| Driveway| Switch | bkIspHn  | 3         | 2      | 1     |
-| Switch  | Lake   | bkspHInw | 3         | 2      | 1     |
-| Main    | Ter.sw | bkHspHs  | 4         | 3      | 2     |
-| Total   |        |          | 13        | 9      | 1     |
+| Station | Track | Block | Isolartor | Sensor | Phase |FB        |
+|---------|-------|-------|-----------|--------|-------|----------|
+| Driveway| 1     |       | 3         | 2      | 1     | 3A 3B    |
+|         | 2     |       | 1         | 1      | 3     | 3G       |
+|         | 3     |       | 3         | 2      | 1     | 3C 3D    |
+|         | 4     |       | 1         | 1      | 3     | 3H       |
+| Total   |       |       | 6         | 4      | 1     |          |
+
+
+| From    | To      | Block   | Isolartor | Sensor | Phase |FB        |
+|---------|--------|----------|-----------|--------|-------|----------|
+| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     | 1E 1F    |
+| Ter.sw  | Lake   | bkspHLn  | 4         | 3      | 1     | 2G 2H 1G |
+| Driveway| Switch | bkIspHn  | 3         | 2      | 1     | 3E 3F    |
+| Switch  | Lake   | bkspHInw | 3         | 2      | 1     | 2E 2F    |
+| Main    | Ter.sw | bkHspHs  | 4         | 3      | 2     |          |
+| Total   |        |          | 13        | 9      | 1     |          |
 
 
 ## rocrail.ini
