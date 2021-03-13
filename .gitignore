@@ -2,3 +2,7 @@
 *trace*
 backup/*
 testPlan/backup/*
+testPlan/svg
+testPlan/web
+testPlan/rocrail.ini.*
+testPlan/.DS_Store
