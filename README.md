@@ -73,7 +73,7 @@ Feedback modules
 
 The property
 - `xnetgbm` enables feedback via Loconet
-- `host` ip-address of CS mXion
+- `host` ip-address of CS mXion; Upladsgade 10.76.215.157, Sommerhus 192.168.8.197
 - `libpath` actual path to drivers in the rocrail install
 
 **MacOS**
@@ -89,14 +89,12 @@ The property
 
 ### Set up webclient
 
-**Raspberry Pi**
-
 ```
 <webclient 
     port="8081" 
-    webpath="/opt/rocrail/web" 
-    imgpath="/opt/rocrail/web" 
-    svgpath1="/opt/rocrail/svg/themes/SpDrS60" 
+    webpath="web" 
+    imgpath="images" 
+    svgpath1=svg/themes/SpDrS60" 
     svgpath2="." 
     svgpath3="." 
     svgpath4="." 
@@ -105,17 +103,12 @@ The property
 </webclient>
 ```
 
+**Raspberry Pi**
+
+Symbolic links in working directory
+- web ln -s /home/pi/Rocrail/web web
+- svg ln -s /home/pi/Rocrail/svg svg
+
 **MacOS**
-```
-<webclient 
-    port="8081" 
-    webpath="/Applications/Rocrail.app/Contents/rocdata/web" 
-    imgpath="/Applications/Rocrail.app/Contents/rocdata/images" 
-    svgpath1="/Applications/Rocrail.app/Contents/rocdata/svg/themes/SpDrS60" 
-    svgpath2="." 
-    svgpath3="." 
-    svgpath4="." 
-    svgpath5="."
-    <rocweb/>
-</webclient>
-```
+
+Symbolic links created by installation
