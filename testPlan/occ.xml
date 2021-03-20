@@ -22,13 +22,13 @@
   <occ bkid="bk9" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp4n" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp4s" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
-  <occ bkid="bkIsp1" auto="false" closed="false" placing="2" blockenterside="1" lcid="G 3/4 11"/>
+  <occ bkid="bkIsp1" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
   <occ bkid="bkIsp3" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
   <occ bkid="bkHsp5n" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp5s" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
   <occ bkid="bkIspHn" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkspHLn" lcid="Ge 4/4 619" auto="false" closed="false" placing="2" blockenterside="1"/>
-  <occ bkid="bkspHInw" lcid="Ge 4/4 625" auto="false" closed="false" placing="1" blockenterside="1"/>
+  <occ bkid="bkspHLn" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bkspHInw" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp1n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
   <occ bkid="bkIspHsw" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
