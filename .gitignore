@@ -4,5 +4,8 @@ backup/*
 testPlan/backup/*
 testPlan/svg
 testPlan/web
+testPlan/img
+testPlan/issues
+testPlan/core
 testPlan/rocrail.ini.*
 testPlan/.DS_Store
