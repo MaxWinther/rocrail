@@ -40,11 +40,11 @@ Feedback modules
 |         |       |       | 16        | 11     | 2     |          |
 
 
-| Station | Track | Block | Isolartor | Sensor | Phase | FB       |
-|---------|-------|-------|-----------|--------|-------|----------|
-| Lake    | 1     |       | 3         | 2      | 1     | 2A 2B    |
-|         | 2     |       | 3         | 2      | 1     | 2C 2D    |
-| Total   |       |       | 6         | 4      | 1     |          |
+| Station | Track | Block | Isolartor | Sensor | Phase | FB               |
+|---------|-------|-------|-----------|--------|-------|------------------|
+| Lake    | 1     |       | 3         | 2      | 1     | 2A:324 2B:323    |
+|         | 2     |       | 3         | 2      | 1     | 2C:321 2D:322    |
+| Total   |       |       | 6         | 4      | 1     |                  |
 
 
 | Station | Track | Block | Isolartor | Sensor | Phase |FB        |
@@ -56,14 +56,14 @@ Feedback modules
 | Total   |       |       | 6         | 4      | 1     |          |
 
 
-| From    | To      | Block   | Isolartor | Sensor | Phase |FB        |
-|---------|--------|----------|-----------|--------|-------|----------|
-| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     | 1E 1F    |
-| Ter.sw  | Lake   | bkspHLn  | 4         | 3      | 1     | 2G 2H 1G |
-| Driveway| Switch | bkIspHn  | 3         | 2      | 1     | 3E 3F    |
-| Switch  | Lake   | bkspHInw | 3         | 2      | 1     | 2E 2F    |
-| Main    | Ter.sw | bkHspHs  | 4         | 3      | 2     |          |
-| Total   |        |          | 13        | 9      | 1     |          |
+| From    | To      | Block   | Isolartor | Sensor | Phase |FB                |
+|---------|--------|----------|-----------|--------|-------|------------------|
+| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     | 1E 1F            |
+| Ter.sw  | Lake   | bkspHLn  | 4         | 3      | 1     | 2G:327 2H:328 1G |
+| Driveway| Switch | bkIspHn  | 3         | 2      | 1     | 3E 3F            |
+| Switch  | Lake   | bkspHInw | 3         | 2      | 1     | 2E 2F            |
+| Main    | Ter.sw | bkHspHs  | 4         | 3      | 2     |                  |
+| Total   |        |          | 13        | 9      | 1     |                  |
 
 
 ## rocrail.ini
