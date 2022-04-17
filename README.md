@@ -4,6 +4,12 @@
 
 ### Signal
 
+| Station | track  | Sinal    | Placment | SW | Address | CV High     | CV Low     | Default | Decoder |
+|---------|--------|----------|----------|----|---------|-------------|------------|---------|---------|
+| Lake    | 1      | sgLsp1s- | Lake     | 1  | 405     | 1           | 149        | Green   | Buildin |
+|         | 2      | sgLsp2s+ | Lake     | 1  | 406     | 1           | 150        | Red     | Buildin |
+|         |        |          |          | 2  | 407     | 1           | 151        |         |         |
+
 | From    | To     | Sinal  | Placment | SW | Address | CV High     | CV Low     | Default | Decoder |
 |---------|--------|--------|----------|----|---------|-------------|------------|---------|---------|
 | Ter.sw  | Lake   | sg8-   | Lake     | 1  | 401     | 1           | 145        | Green   | Buildin |
