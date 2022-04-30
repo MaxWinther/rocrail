@@ -127,17 +127,24 @@ The property
 </webclient>
 ```
 
-**Raspberry Pi**
+## Raspberry PI
+
+### Setup
+Installed and runing from 
+```
+/home/pi/rocrail/testPlan
+```
 
 Symbolic links in working directory
-- web ln -s /home/pi/Rocrail/web web
-- svg ln -s /home/pi/Rocrail/svg svg
+- web ```ln -s /home/pi/Rocrail/web web```
+- svg ```ln -s /home/pi/Rocrail/svg svg```
 
-***Rocrail***
-Stop: sudo /etc/init.d/rocraild stop
-Start: sudo /etc/init.d/rocraild start
-Status: /etc/init.d/rocraild status
+### Start/stop
+- Stop: ```sudo /etc/init.d/rocraild stop```
+- Start: ```sudo /etc/init.d/rocraild start```
+- Status: ```/etc/init.d/rocraild status```
 
-**MacOS**
+## MacOS
 
+### Setup
 Symbolic links created by installation
