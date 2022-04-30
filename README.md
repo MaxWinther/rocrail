@@ -133,6 +133,11 @@ Symbolic links in working directory
 - web ln -s /home/pi/Rocrail/web web
 - svg ln -s /home/pi/Rocrail/svg svg
 
+***Rocrail***
+Stop: sudo /etc/init.d/rocraild stop
+Start: sudo /etc/init.d/rocraild start
+Status: /etc/init.d/rocraild status
+
 **MacOS**
 
 Symbolic links created by installation
