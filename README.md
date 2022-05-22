@@ -82,7 +82,7 @@ Feedback modules
 
 | From    | To      | Block   | Isolartor | Sensor | Phase |FB                |
 |---------|--------|----------|-----------|--------|-------|------------------|
-| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     | 1E 1F            |
+| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     | 1E:314 1F:315    |
 | Ter.sw  | Lake   | bkspHLn  | 4         | 3      | 1     | 2G:327 2H:328 1G |
 | Driveway| Switch | bkIspHn  | 3         | 2      | 1     | 3E 3F            |
 | Switch  | Lake   | bkspHInw | 3         | 2      | 1     | 2E 2F            |
