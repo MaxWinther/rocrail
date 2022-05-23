@@ -27,6 +27,12 @@
 
 ### Sensors
 
+Overview of the RBM setup 
+
+![Overview](rbm-setup.drawio.png)
+
+The source to the picture https://app.diagrams.net/#HMaxWinther%2Frocrail%2Fmain%2Frbm-setup.drawio
+
 **Setup**
 Sensors are mapped to mXion in the interface tab setting the follwing
 - `Interface ID` to md
