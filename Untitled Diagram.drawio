@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T20:03:38.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="oCePh37-If_l98D_JCsO" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T20:15:59.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="JSLnIOkLi4WVEh6HDd_b" version="18.1.1" type="github">
   <diagram id="dmieQwYUUAP63awEwlh5" name="Page-1">
     <mxGraphModel dx="1005" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,6 +25,9 @@
         <mxCell id="7N787UUlXTNlcEC6xHam-14" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="469" y="121" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-15" target="7N787UUlXTNlcEC6xHam-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-15" value="Massoth 8138001&lt;br&gt;BUS Adaptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="121" width="130" height="60" as="geometry" />
         </mxCell>
@@ -37,7 +40,7 @@
         <mxCell id="7N787UUlXTNlcEC6xHam-34" value="Hoved station" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="20" y="86" width="750" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-60" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="7N787UUlXTNlcEC6xHam-34" target="7N787UUlXTNlcEC6xHam-59">
+        <mxCell id="7N787UUlXTNlcEC6xHam-60" value="15 m kabel" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="7N787UUlXTNlcEC6xHam-34" target="7N787UUlXTNlcEC6xHam-59">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="85" y="34" as="sourcePoint" />
             <mxPoint x="130" y="-16" as="targetPoint" />
@@ -76,7 +79,7 @@
         <mxCell id="7N787UUlXTNlcEC6xHam-45" value="Sø station" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="20" y="342" width="750" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="7N787UUlXTNlcEC6xHam-45">
+        <mxCell id="7N787UUlXTNlcEC6xHam-57" value="20 m kabel" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="7N787UUlXTNlcEC6xHam-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="85" y="320" as="sourcePoint" />
             <mxPoint x="84.5" y="95" as="targetPoint" />
@@ -112,7 +115,7 @@
         <mxCell id="7N787UUlXTNlcEC6xHam-56" value="Indkørsel station" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="20" y="592" width="750" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-58" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-42" target="7N787UUlXTNlcEC6xHam-15">
+        <mxCell id="7N787UUlXTNlcEC6xHam-58" value="20m kabel" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-42" target="7N787UUlXTNlcEC6xHam-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="410" as="sourcePoint" />
             <mxPoint x="430" y="360" as="targetPoint" />
