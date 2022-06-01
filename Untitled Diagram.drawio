@@ -1,29 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T20:15:59.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="JSLnIOkLi4WVEh6HDd_b" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T07:08:45.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="qWCMnGaLgtsIsjYBU78h" version="18.1.1" type="github">
   <diagram id="dmieQwYUUAP63awEwlh5" name="Page-1">
     <mxGraphModel dx="1005" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7N787UUlXTNlcEC6xHam-3" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="211" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-4" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="211" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-23" value="Slave" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-5" target="7N787UUlXTNlcEC6xHam-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-5" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="121" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-12" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="474" y="211" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-13" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="604" y="211" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-14" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="469" y="121" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-15" target="7N787UUlXTNlcEC6xHam-59">
           <mxGeometry relative="1" as="geometry" />
@@ -46,26 +31,23 @@
             <mxPoint x="130" y="-16" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-35" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="467" width="120" height="60" as="geometry" />
+        <mxCell id="7N787UUlXTNlcEC6xHam-12" value="MD BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-34">
+          <mxGeometry x="180" y="125" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-36" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="467" width="120" height="60" as="geometry" />
+        <mxCell id="7N787UUlXTNlcEC6xHam-14" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-34">
+          <mxGeometry x="370" y="35" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-65" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-34">
+          <mxGeometry x="370" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-66" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-34">
+          <mxGeometry x="504" y="125" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-37" value="Slave" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-38" target="7N787UUlXTNlcEC6xHam-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-38" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="377" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-39" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="474" y="467" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-40" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="604" y="467" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-41" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="469" y="377" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-42" value="Massoth 8138001&lt;br&gt;BUS Adaptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="377" width="130" height="60" as="geometry" />
@@ -85,26 +67,23 @@
             <mxPoint x="84.5" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-46" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="717" width="120" height="60" as="geometry" />
+        <mxCell id="7N787UUlXTNlcEC6xHam-41" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-45">
+          <mxGeometry x="370" y="35" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-47" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="717" width="120" height="60" as="geometry" />
+        <mxCell id="7N787UUlXTNlcEC6xHam-62" value="MD BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-45">
+          <mxGeometry x="180" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-67" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-45">
+          <mxGeometry x="370" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-68" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-45">
+          <mxGeometry x="504" y="128" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-48" value="Slave" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-49" target="7N787UUlXTNlcEC6xHam-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-49" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="627" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-50" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="474" y="717" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-51" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="604" y="717" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-52" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="469" y="627" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-55" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -115,6 +94,18 @@
         <mxCell id="7N787UUlXTNlcEC6xHam-56" value="Indkørsel station" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="20" y="592" width="750" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-52" value="Massoth 8170001&lt;br&gt;FM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-56">
+          <mxGeometry x="370" y="35" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-71" value="MD BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-56">
+          <mxGeometry x="180" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-72" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-56">
+          <mxGeometry x="370" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-73" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-56">
+          <mxGeometry x="504" y="128" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-58" value="20m kabel" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-42" target="7N787UUlXTNlcEC6xHam-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="410" as="sourcePoint" />
@@ -123,6 +114,11 @@
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-59" value="Massoth CS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="10" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7N787UUlXTNlcEC6xHam-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7N787UUlXTNlcEC6xHam-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="386" y="748" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
