@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T12:56:37.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="iFtMP3ZEusi3vyWXnw5V" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T13:42:02.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="KIZbY9Woz2AVGwT5PhrG" version="18.2.0" type="github">
   <diagram id="dmieQwYUUAP63awEwlh5" name="Page-1">
     <mxGraphModel dx="1005" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,11 +97,8 @@
         <mxCell id="7N787UUlXTNlcEC6xHam-71" value="MD BM" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-56" vertex="1">
           <mxGeometry x="180" y="128" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-72" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-56" vertex="1">
+        <mxCell id="g0L1-y3GfQ9ImoboEQg--7" value="MD BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-56">
           <mxGeometry x="370" y="128" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7N787UUlXTNlcEC6xHam-73" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-56" vertex="1">
-          <mxGeometry x="504" y="128" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-58" value="20m RJ11 kabel" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="7N787UUlXTNlcEC6xHam-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
