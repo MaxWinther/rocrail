@@ -27,6 +27,8 @@
 
 ### Sensors
 
+#### MD
+
 Overview of the RBM setup 
 
 ![Overview](rbm-setup.drawio.png)
@@ -38,6 +40,21 @@ Sensors are mapped to mXion in the interface tab setting the follwing
 - `Interface ID` to md
 - `Node ID` aka `Bus` for Z21 protocol to 1 which actually stands for responses comming from LocoNet
 - `Address` is set to the programmed address in mXion plus 1
+
+#### Massoth
+
+Overview of RM setup
+
+![Overview](massoth_feedback_layout.drawio.png)
+
+The source to the picture https://app.diagrams.net/#HMaxWinther%2Frocrail%2Fmain%2Fmassoth_feedback_layout.drawio
+
+
+How to integrate MD BM and Massoth RM
+
+![Overview](MD_BM_to_Massoth_RM_8170001.drawio.png)
+
+The source to the picture https://app.diagrams.net/#HMaxWinther%2Frocrail%2Fmain%2FMD_BM_to_Massoth_RM_8170001.drawio
 
 **Usage**
 
