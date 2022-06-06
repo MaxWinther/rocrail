@@ -4,26 +4,40 @@
 
 ### Signal
 
-| Station | track  | Sinal    | Placment | SW | Address | CV High     | CV Low     | Default | Decoder |
-|---------|--------|----------|----------|----|---------|-------------|------------|---------|---------|
-| Lake    | 1      | sgLsp1s- | Lake     | 1  | 405     | 1           | 149        | Green   | Buildin |
-|         | 2      | sgLsp2s+ | Lake     | 1  | 406     | 1           | 150        | Red     | Buildin |
-|         |        |          |          | 2  | 407     | 1           | 151        |         |         |
+| Station  | track  | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
+|----------|--------|----------|-------------|----|---------|-------------|------------|---------|---------|
+| Lake     | 1      | sgLsp1s- | Lake        | 1  | 405     | 1           | 149        | Green   | Buildin |
+|          | 2      | sgLsp2s+ | Lake        | 1  | 406     | 1           | 150        | Red     | Buildin |
+|          |        |          |             | 2  | 407     | 1           | 151        |         |         |
 
-| From    | To     | Sinal  | Placment | SW | Address | CV High     | CV Low     | Default | Decoder |
-|---------|--------|--------|----------|----|---------|-------------|------------|---------|---------|
-| Ter.sw  | Lake   | sg8-   | Lake     | 1  | 401     | 1           | 145        | Green   | Buildin |
-|         |        |        |          | 2  | 402     | 1           | 146        |         |         |
-| Lake    | Ter.sw | sg8+   | Ter.sw   | 1  | 403     | 1           | 147        | Red     | Buildin |
-|         |        |        |          | 2  | 404     | 1           | 148        |         |         |
+| Station  | track  | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
+|----------|--------|----------|-------------|----|---------|-------------|------------|---------|---------|
+| Driveway | 1      | sgIsp1+  | Small house | 1  | 450     | 1           | 194        | Red     | LSD     |
+|          | 3      | sgIsp3-  | Small house | 2  | 451     | 2           | 195        | Red     | LSD     |
+
+
+| From     | To     | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
+|----------|--------|----------|-------------|----|---------|-------------|------------|---------|---------|
+| Ter.sw   | Lake   | sg8-     | Lake        | 1  | 401     | 1           | 145        | Green   | Buildin |
+|          |        |          |             | 2  | 402     | 1           | 146        |         |         |
+| Lake     | Ter.sw | sg8+     | Ter.sw      | 1  | 403     | 1           | 147        | Red     | Buildin |
+|          |        |          |             | 2  | 404     | 1           | 148        |         |         |
 
 #### Programming
-**Buildin**
+**Buildin MD SH-12**
 - Address SW1 High CV120 value from table
 - Address SW1 Low CV121 value from table
 - Address SW2 High CV125 value from table
 - Address SW2 Low CV126 value from table
 - Signal type CV49 value 38
+
+**2 in 1 MD LSD**
+- Signal type CV14 Mode 2 3 light signal CV value 2
+- Address Signal 1 SW 1 High CV20
+- Address Signal 1 SW 1 Low C21
+- Address Signal 2 SW 2 High CV22
+- Address Signal 2 SW 2 Low C23
+
 
 ### Sensors
 
