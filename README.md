@@ -10,10 +10,12 @@
 |          | 2      | sgLsp2s+ | Lake        | 1  | 406     | 1           | 150        | Red     | Buildin |
 |          |        |          |             | 2  | 407     | 1           | 151        |         |         |
 
-| Station  | track  | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
-|----------|--------|----------|-------------|----|---------|-------------|------------|---------|---------|
-| Driveway | 1      | sgIsp1+  | Small house | 1  | 450     | 1           | 194        | Red     | LSD     |
-|          | 3      | sgIsp3-  | Small house | 2  | 451     | 2           | 195        | Red     | LSD     |
+| Station  | track  | Sinal    | Placment    | SW  | Address | CV High     | CV Low     | Default | Decoder |
+|----------|--------|----------|-------------|-----|---------|-------------|------------|---------|---------|
+| Driveway | 1      | sgIsp1+  | Small house | 1:1 | 450     | 1           | 194        | Red     | LSD     |
+|          |        |          |             | 1:2 | 451     | 1           | 195        | Red     | LSD     |
+|          | 3      | sgIsp3-  | Small house | 2:1 | 452     | 1           | 196        | Red     | LSD     |
+|          |        |          | Small house | 2:2 | 453     | 1           | 197        | Red     | LSD     |
 
 
 | From     | To     | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
@@ -35,8 +37,12 @@
 - Signal type CV14 Mode 2 3 light signal CV value 2
 - Address Signal 1 SW 1 High CV20
 - Address Signal 1 SW 1 Low C21
-- Address Signal 2 SW 2 High CV22
-- Address Signal 2 SW 2 Low C23
+- Address Signal 1 SW 2 High CV22
+- Address Signal 1 SW 2 Low C23
+- Address Signal 2 SW 1 High CV24
+- Address Signal 2 SW 1 Low C25
+- Address Signal 2 SW 2 High CV26
+- Address Signal 2 SW 2 Low C27
 
 
 ### Sensors
