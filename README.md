@@ -74,41 +74,41 @@ Feedback modules
 3. Driveway; blocks and sideways on station plus single main line block. No free sensors
 
 
-| Station | Track | Block | Isolartor | Sensor | Phase | FB       |
-|---------|-------|-------|-----------|--------|-------|----------|
-| Main    | 1     |       | 3         | 2      | 1     | 1A 1B    |
-|         | 2     |       | 3         | 2      | 1     | 1C 2D    |
-|         | 3     |       | 4         | 3      | 2     |          |
-|         | 4N    |       | 3         | 2      | 2     |          |
-|         | 4S    |       | 3         | 2      | 2     |          |
-|         | 5N    |       | 3         | 2      | 2     |          |
-|         | 5N    |       | 3         | 2      | 2     |          |
-| Total   |       |       | 6         | 4      | 1     |          |
-|         |       |       | 16        | 11     | 2     |          |
+| Station | Track | Block | Isolartor | Sensor | Phase | FB              |
+|---------|-------|-------|-----------|--------|-------|-----------------|
+| Main    | 1     |       | 3         | 2      | 1     | HS1:1 HS1:2     |
+|         | 2     |       | 3         | 2      | 1     |                 |
+|         | 3     |       | 4         | 3      | 2     |                 |
+|         | 4N    |       | 3         | 2      | 2     |                 |
+|         | 4S    |       | 3         | 2      | 2     |                 |
+|         | 5N    |       | 3         | 2      | 2     |                 |
+|         | 5N    |       | 3         | 2      | 2     |                 |
+| Total   |       |       | 6         | 4      | 1     |                 |
+|         |       |       | 16        | 11     | 2     |                 |
 
 
-| Station | Track | Block | Isolartor | Sensor | Phase | FB               |
-|---------|-------|-------|-----------|--------|-------|------------------|
-| Lake    | 1     |       | 3         | 2      | 1     | 2A:324 2B:323    |
-|         | 2     |       | 3         | 2      | 1     | 2C:321 2D:322    |
-| Total   |       |       | 6         | 4      | 1     |                  |
+| Station | Track | Block | Isolartor | Sensor | Phase | FB              |
+|---------|-------|-------|-----------|--------|-------|-----------------|
+| Lake    | 1     |       | 3         | 2      | 1     | LS1:1:324 LS1:2 |
+|         | 2     |       | 3         | 2      | 1     |                 |
+| Total   |       |       | 6         | 4      | 1     |                 |
 
 
-| Station | Track | Block | Isolartor | Sensor | Phase |FB        |
-|---------|-------|-------|-----------|--------|-------|----------|
-| Driveway| 1     |       | 3         | 2      | 1     | 3A 3B    |
-|         | 2     |       | 1         | 1      | 3     | 3G       |
-|         | 3     |       | 3         | 2      | 1     | 3C 3D    |
-|         | 4     |       | 1         | 1      | 3     | 3H       |
-| Total   |       |       | 6         | 4      | 1     |          |
+| Station | Track | Block | Isolartor | Sensor | Phase |FB               |
+|---------|-------|-------|-----------|--------|-------|-----------------|
+| Driveway| 1     |       | 3         | 2      | 1     | DW1:1 DW1:2     |
+|         | 2     |       | 1         | 1      | 3     |                 |
+|         | 3     |       | 3         | 2      | 1     | DW2:1 DW2:2     |
+|         | 4     |       | 1         | 1      | 3     |                 |
+| Total   |       |       | 6         | 4      | 1     |                 |
 
 
 | From    | To      | Block   | Isolartor | Sensor | Phase |FB                |
 |---------|--------|----------|-----------|--------|-------|------------------|
-| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     | 1E:314 1F:315    |
-| Ter.sw  | Lake   | bkspHLn  | 4         | 3      | 1     | 2G:327 2H:328 1G |
-| Driveway| Switch | bkIspHn  | 3         | 2      | 1     | 3E 3F            |
-| Switch  | Lake   | bkspHInw | 3         | 2      | 1     | 2E 2F            |
+| Main    | Ter.sw | bkHspHe  | 3         | 2      | 1     | HS1:3 HS1:4      |
+| Ter.sw  | Lake   | bkspHLn  | 4         | 3      | 1     | LS1:3:324 LS1:4  |
+| Driveway| Switch | bkIspHn  | 3         | 2      | 1     | DW1:3 DW1:4      |
+| Switch  | Lake   | bkspHInw | 3         | 2      | 1     |                  |
 | Main    | Ter.sw | bkHspHs  | 4         | 3      | 2     |                  |
 | Total   |        |          | 13        | 9      | 1     |                  |
 
