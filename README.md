@@ -55,11 +55,17 @@ Overview of the RBM setup
 
 The source to the picture https://app.diagrams.net/#HMaxWinther%2Frocrail%2Fmain%2Frbm-setup.drawio
 
-**Setup**
+**MD BM programming**
+- CV30 Current detection L1, default 5
+- CV31 Current detection L2, default 5
+- CV32 Current detection L3, default 5
+- CV33 Current detection L4, default 5
+
+**Rocrail Setup**
 Sensors are mapped to mXion in the interface tab setting the follwing
 - `Interface ID` to md
 - `Node ID` aka `Bus` for Z21 protocol to 1 which actually stands for responses comming from LocoNet
-- `Address` is set to the programmed address in mXion plus 1
+- `Address` is set to the programmed address in RBM plus 1
 
 #### Massoth
 
