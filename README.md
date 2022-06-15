@@ -44,6 +44,17 @@
 - Address Signal 2 SW 2 High CV26
 - Address Signal 2 SW 2 Low C27
 
+#### Rocrail
+
+**Signal 3 aspects**
+
+Interface tab
+
+![Interface](signal-interface-3-aspect.png)
+
+Detail tab
+
+![Details](signal-details-3-aspect.png)
 
 ### Sensors
 
