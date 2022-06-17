@@ -15,7 +15,11 @@
 | Driveway | 1      | sgIsp1+  | Small house | 1:1 | 450     | 1           | 194        | Red     | LSD     |
 |          |        |          |             | 1:2 | 451     | 1           | 195        | Red     | LSD     |
 |          | 3      | sgIsp3-  | Small house | 2:1 | 452     | 1           | 196        | Red     | LSD     |
-|          |        |          | Small house | 2:2 | 453     | 1           | 197        | Red     | LSD     |
+|          |        |          |             | 2:2 | 453     | 1           | 197        | Red     | LSD     |
+|          | 1      | sgIsp1-  | Well        | 1:1 | 454     | 1           | 198        | Red     | LSD     |
+|          |        |          |             | 1:2 | 455     | 1           | 199        | Red     | LSD     |
+|          | 3      | sgIsp3+  | Well        | 2:1 | 456     | 1           | 200        | Red     | LSD     |
+|          |        |          |             | 2:2 | 457     | 1           | 201        | Red     | LSD     |
 
 
 | From     | To     | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
