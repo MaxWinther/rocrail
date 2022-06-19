@@ -15,7 +15,11 @@
 | Driveway | 1      | sgIsp1+  | Small house | 1:1 | 450     | 1           | 194        | Red     | LSD     |
 |          |        |          |             | 1:2 | 451     | 1           | 195        | Red     | LSD     |
 |          | 3      | sgIsp3-  | Small house | 2:1 | 452     | 1           | 196        | Red     | LSD     |
-|          |        |          | Small house | 2:2 | 453     | 1           | 197        | Red     | LSD     |
+|          |        |          |             | 2:2 | 453     | 1           | 197        | Red     | LSD     |
+|          | 1      | sgIsp1-  | Well        | 1:1 | 454     | 1           | 198        | Red     | LSD     |
+|          |        |          |             | 1:2 | 455     | 1           | 199        | Red     | LSD     |
+|          | 3      | sgIsp3+  | Well        | 2:1 | 456     | 1           | 200        | Red     | LSD     |
+|          |        |          |             | 2:2 | 457     | 1           | 201        | Red     | LSD     |
 
 
 | From     | To     | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
@@ -44,6 +48,17 @@
 - Address Signal 2 SW 2 High CV26
 - Address Signal 2 SW 2 Low C27
 
+#### Rocrail
+
+**Signal 3 aspects**
+
+Interface tab
+
+![Interface](signal-interface-3-aspect.png)
+
+Detail tab
+
+![Details](signal-details-3-aspect.png)
 
 ### Sensors
 
@@ -55,11 +70,17 @@ Overview of the RBM setup
 
 The source to the picture https://app.diagrams.net/#HMaxWinther%2Frocrail%2Fmain%2Frbm-setup.drawio
 
-**Setup**
+**MD BM programming**
+- CV30 Current detection L1, default 5
+- CV31 Current detection L2, default 5
+- CV32 Current detection L3, default 5
+- CV33 Current detection L4, default 5
+
+**Rocrail Setup**
 Sensors are mapped to mXion in the interface tab setting the follwing
 - `Interface ID` to md
 - `Node ID` aka `Bus` for Z21 protocol to 1 which actually stands for responses comming from LocoNet
-- `Address` is set to the programmed address in mXion plus 1
+- `Address` is set to the programmed address in RBM plus 1
 
 #### Massoth
 
@@ -171,6 +192,14 @@ The property
 ```
 
 ## Raspberry PI
+
+### Install new server version
+- Follow download instructions from https://wiki.rocrail.net/doku.php?id=download-int#raspberry_pi
+- Download to ```/home/pi/Downloads```
+- Unzip into ```sudo unzip -u Rocrail-PiOS11-ARMHF.zip -d /opt/rocrail-[DD-MM-YYY]```
+- Remove old symbol-link ```sudo  rm /opt/rocrail```
+- Create net symbol-link ```sudo  ln -s rocrail-[DD-MM-YYY] rocrail``` in opt-folder
+- Create symbol-link in new folder to rocrai-bin like ```ln -s bin/rocrail roctail``` to make init.d work
 
 ### Setup
 Installed and runing from 
