@@ -23,19 +23,19 @@
   <occ bkid="bkHsp4n" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp4s" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
   <occ bkid="bkIsp1" auto="false" closed="true" placing="0" blockenterside="0" lcid=""/>
-  <occ bkid="bkIsp3" auto="false" closed="false" placing="1" blockenterside="2" lcid="Ge 4/4 625"/>
+  <occ bkid="bkIsp3" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1655653220"/>
   <occ bkid="bkHsp5n" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp5s" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
-  <occ bkid="bkIspHn" auto="false" closed="false" placing="1" blockenterside="2" lcid="Ge 4/4 625"/>
-  <occ bkid="bkspHLn" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
+  <occ bkid="bkIspHn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1655653265"/>
+  <occ bkid="bkspHLn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1655653069"/>
   <occ bkid="bkspHInw" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp1n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
+  <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1655653109"/>
   <occ bkid="bkIspHsw" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkHsp1" auto="false" closed="false" placing="0" blockenterside="0" lcid=""/>
+  <occ bkid="bkHsp1" auto="false" closed="false" placing="1" blockenterside="1" lcid="Ge 4/4 625" arrivetime="1655653265"/>
   <occ bkid="bkHsp2" auto="false" closed="true" placing="0" blockenterside="0" lcid=""/>
   <occ bkid="bkHsp3" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
-  <occ bkid="bkHspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
+  <occ bkid="bkHspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1655653052"/>
   <occ bkid="bkHsp4" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp2n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHspHs" lcid="" auto="false" closed="true" placing="0" blockenterside="0"/>
