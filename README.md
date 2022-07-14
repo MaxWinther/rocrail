@@ -6,6 +6,13 @@
 
 | Station  | track  | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
 |----------|--------|----------|-------------|----|---------|-------------|------------|---------|---------|
+| Main     | 1      | sgMsp1s- | Main        | 1  | 420     | 1           | 164        | Red     | Buildin |
+|          |        |          |             | 2  | 421     | 1           | 165        |         |         |
+|          | 2      | sgMsp2s+ | Main        | 1  | 422     | 1           | 166        | Red     | Buildin |
+|          |        |          |             | 2  | 423     | 1           | 167        |         |         |
+
+| Station  | track  | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
+|----------|--------|----------|-------------|----|---------|-------------|------------|---------|---------|
 | Lake     | 1      | sgLsp1s- | Lake        | 1  | 405     | 1           | 149        | Green   | Buildin |
 |          | 2      | sgLsp2s+ | Lake        | 1  | 406     | 1           | 150        | Red     | Buildin |
 |          |        |          |             | 2  | 407     | 1           | 151        |         |         |
