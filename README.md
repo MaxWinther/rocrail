@@ -104,6 +104,8 @@ How to integrate MD BM and Massoth RM
 
 The source to the picture https://app.diagrams.net/#HMaxWinther%2Frocrail%2Fmain%2FMD_BM_to_Massoth_RM_8170001.drawio
 
+Remember to program CV 65, 75 and 85 same as CV 55
+
 **Usage**
 
 From tables below in phase 1, isolators 31 and 21
