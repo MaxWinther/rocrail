@@ -17,24 +17,30 @@
 |          | 2      | sgLsp2s+ | Lake        | 1  | 406     | 1           | 150        | Red     | Buildin |
 |          |        |          |             | 2  | 407     | 1           | 151        |         |         |
 
-| Station  | track  | Sinal    | Placment    | SW  | Address | CV High     | CV Low     | Default | Decoder |
-|----------|--------|----------|-------------|-----|---------|-------------|------------|---------|---------|
-| Driveway | 1      | sgIsp1+  | Small house | 1:1 | 450     | 1           | 194        | Red     | LSD     |
-|          |        |          |             | 1:2 | 451     | 1           | 195        | Red     | LSD     |
-|          | 3      | sgIsp3-  | Small house | 2:1 | 452     | 1           | 196        | Red     | LSD     |
-|          |        |          |             | 2:2 | 453     | 1           | 197        | Red     | LSD     |
-|          | 1      | sgIsp1-  | Well        | 1:1 | 454     | 1           | 198        | Red     | LSD     |
-|          |        |          |             | 1:2 | 455     | 1           | 199        | Red     | LSD     |
-|          | 3      | sgIsp3+  | Well        | 2:1 | 456     | 1           | 200        | Red     | LSD     |
-|          |        |          |             | 2:2 | 457     | 1           | 201        | Red     | LSD     |
+| Station  | track    | Sinal    | Placment    | SW  | Address | CV High     | CV Low     | Default | Decoder |
+|----------|----------|----------|-------------|-----|---------|-------------|------------|---------|---------|
+| Driveway | 1        | sgIsp1+  | Small house | 1:1 | 450     | 1           | 194        | Red     | LSD     |
+|          |          |          |             | 1:2 | 451     | 1           | 195        | Red     | LSD     |
+|          | 3        | sgIsp3-  | Small house | 2:1 | 452     | 1           | 196        | Red     | LSD     |
+|          |          |          |             | 2:2 | 453     | 1           | 197        | Red     | LSD     |
+|          | 1        | sgIsp1-  | Well        | 1:1 | 454     | 1           | 198        | Red     | LSD     |
+|          |          |          |             | 1:2 | 455     | 1           | 199        | Red     | LSD     |
+|          | 3        | sgIsp3+  | Well        | 2:1 | 456     | 1           | 200        | Red     | LSD     |
+|          |          |          |             | 2:2 | 457     | 1           | 201        | Red     | LSD     |
 
 
-| From     | To     | Sinal    | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
-|----------|--------|----------|-------------|----|---------|-------------|------------|---------|---------|
-| Ter.sw   | Lake   | sg8-     | Lake        | 1  | 401     | 1           | 145        | Green   | Buildin |
-|          |        |          |             | 2  | 402     | 1           | 146        |         |         |
-| Lake     | Ter.sw | sg8+     | Ter.sw      | 1  | 403     | 1           | 147        | Red     | Buildin |
-|          |        |          |             | 2  | 404     | 1           | 148        |         |         |
+| From     | To       | Sinal     | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
+|----------|----------|-----------|-------------|----|---------|-------------|------------|---------|---------|
+| Ter.sw   | Lake     | sg8-      | Lake        | 1  | 401     | 1           | 145        | Green   | Buildin |
+|          |          |           |             | 2  | 402     | 1           | 146        |         |         |
+| Lake     | Ter.sw   | sg8+      | Ter.sw      | 1  | 403     | 1           | 147        | Red     | Buildin |
+|          |          |           |             | 2  | 404     | 1           | 148        |         |         |
+| Drivway  | Lake     | sgSpHInw+ | Lake        | 1  | 458     | 1           | 202        | Red     | Buildin |
+|          |          |           |             | 2  | 459     | 1           | 203        |         |         |
+| Lake     | Driveway | sgSpHInw+ | Lake        | 1  | 460     | 1           | 204        | Red     | Buildin |
+|          |          |           |             | 2  | 461     | 1           | 205        |         |         |
+
+
 
 #### Programming
 **Buildin MD SH-12**
