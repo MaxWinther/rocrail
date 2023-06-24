@@ -29,16 +29,18 @@
 |          |          |          |             | 2:2 | 457     | 1           | 201        | Red     | LSD     |
 
 
-| From     | To       | Sinal     | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
-|----------|----------|-----------|-------------|----|---------|-------------|------------|---------|---------|
-| Ter.sw   | Lake     | sg8-      | Lake        | 1  | 401     | 1           | 145        | Green   | Buildin |
-|          |          |           |             | 2  | 402     | 1           | 146        |         |         |
-| Lake     | Ter.sw   | sg8+      | Ter.sw      | 1  | 403     | 1           | 147        | Red     | Buildin |
-|          |          |           |             | 2  | 404     | 1           | 148        |         |         |
-| Drivway  | Lake     | sgSpHInw+ | Lake        | 1  | 458     | 1           | 202        | Red     | Buildin |
-|          |          |           |             | 2  | 459     | 1           | 203        |         |         |
-| Lake     | Driveway | sgSpHInw+ | Lake        | 1  | 460     | 1           | 204        | Red     | Buildin |
-|          |          |           |             | 2  | 461     | 1           | 205        |         |         |
+| From       | To         | Sinal     | Placment    | SW | Address | CV High     | CV Low     | Default | Decoder |
+|------------|------------|-----------|-------------|----|---------|-------------|------------|---------|---------|
+| Ter.sw     | Lake       | sg8-      | Lake        | 1  | 401     | 1           | 145        | Green   | Buildin |
+|            |            |           |             | 2  | 402     | 1           | 146        |         |         |
+| Lake       | Ter.sw     | sg8+      | Ter.sw      | 1  | 403     | 1           | 147        | Red     | Buildin |
+|            |            |           |             | 2  | 404     | 1           | 148        |         |         |
+| Main North | Lake In    | sgSpHInw+ | Lake        | 1  | 458     | 1           | 202        | Red     | Buildin |
+|            |            |           |             | 2  | 459     | 1           | 203        |         |         |
+| Lake In    | Main North | sgSpHInw+ | Lake        | 1  | 460     | 1           | 204        | Red     | Buildin |
+|            |            |           |             | 2  | 461     | 1           | 205        |         |         |
+| Main Norh  | Driveway   | sgIspHn-  | Lake        | 1  | 462     | 1           | 206        | Red     | Buildin |
+|            |            |           |             | 2  | 463     | 1           | 207        |         |         |
 
 
 
