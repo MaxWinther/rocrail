@@ -1,0 +1,81 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          rocrail
+# Required-Start:    $network
+# X-UnitedLinux-Should-Start: 
+# Required-Stop:     
+# X-UnitedLinux-Should-Stop: 
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Starts the Rocrail Daemon
+# Description:       Starts the Rocrail Daemon
+### END INIT INFO
+
+# --- Start of options ---
+
+# Path to Rocrail install directory. Default path is /opt/rocrail
+rocrail_DIR=/opt/rocrail
+
+# Path to Rocrail working directory. Default path is the same as in $rocrail_DIR
+WORKDIR=/home/pi/rocrail/testPlan
+
+# Path to Rocrail library directory. Default path is the same as in $rocrail_DIR
+LIBDIR=/opt/rocrail/bin
+
+# Check for serial devices at startup. If yes leave this blank, if no set it to -nodevcheck
+DEVCHECK=-nodevcheck
+
+# --- End of options ---
+
+rocrail_PID=$(ps -C rocrail -o pid=)
+
+if [ ! -e $rocrail_DIR/rocrail ] ; then
+  echo Rocrail is not installed
+  exit 5
+fi
+
+case "$1" in
+  start)
+    if [ -n "$rocrail_PID" ] ; then
+      $0 status
+    else
+      echo "Starting Rocrail (> $rocrail_DIR/nohup.out)"
+      rm -f $rocrail_DIR/nohup.out
+      nohup $rocrail_DIR/bin/rocrail $DEVCHECK -w $WORKDIR -l $LIBDIR > $rocrail_DIR/nohup.out 2>&1 &
+    fi
+    ;;
+  stop)
+    if [ -n "$rocrail_PID" ] ; then
+      echo Shutting down Rocrail
+      kill $rocrail_PID
+    else
+      $0 status
+    fi
+    ;;
+  restart)
+    $0 stop
+    sleep 1
+    $0 start
+    ;;
+  status)
+    if [ -n "$rocrail_PID" ] ; then
+      echo Rocrail is up and running with PID $rocrail_PID
+      exit 4
+    else
+      echo Rocrail is not running
+      exit 5
+    fi
+    ;;
+  deltrace)
+    $0 stop
+    sleep 1
+    echo Erase Trace-Files
+    rm -f $WORKDIR/*.trc
+    $0 start
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart|status|deltrace}"
+    exit 1
+esac
+exit 0
