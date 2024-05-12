@@ -24,20 +24,20 @@
   <occ bkid="bk9" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp4n" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504243"/>
   <occ bkid="bkHsp4s" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504244"/>
-  <occ bkid="bkIsp1" auto="false" closed="false" placing="1" blockenterside="2" lcid="BCe Bernina" arrivetime="1691765856"/>
+  <occ bkid="bkIsp1" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1715511537"/>
   <occ bkid="bkIsp3" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1691765494"/>
   <occ bkid="bkHsp5n" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504244"/>
   <occ bkid="bkHsp5s" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504245"/>
-  <occ bkid="bkIspHn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1691765712"/>
-  <occ bkid="bkspHLn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1691765796"/>
+  <occ bkid="bkIspHn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1715511593"/>
+  <occ bkid="bkspHLn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1715511459"/>
   <occ bkid="bkspHInw" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1556117256"/>
   <occ bkid="bkLsp1n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1691765856"/>
+  <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1715511498"/>
   <occ bkid="bkIspHsw" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkHsp1" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1691765754"/>
+  <occ bkid="bkHsp1" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1715511709"/>
   <occ bkid="bkHsp2" auto="false" closed="true" placing="0" blockenterside="0" lcid="" arrivetime="1556093499"/>
   <occ bkid="bkHsp3" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504242"/>
-  <occ bkid="bkHspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1691765788"/>
+  <occ bkid="bkHspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1715511630"/>
   <occ bkid="bkHsp4" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp2n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHspHs" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1550216256"/>
