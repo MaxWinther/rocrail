@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" version="24.7.5">
   <diagram id="dmieQwYUUAP63awEwlh5" name="Page-1">
-    <mxGraphModel dx="836" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,30 +74,33 @@
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="410" as="sourcePoint" />
-            <mxPoint x="60" y="410" as="targetPoint" />
+            <mxPoint x="197" y="410" as="sourcePoint" />
+            <mxPoint x="67" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-45" value="Sø station" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="20" y="342" width="780" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="k4cjp3Jf4Ng9a7XbRaLr-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7N787UUlXTNlcEC6xHam-45" source="7N787UUlXTNlcEC6xHam-62" target="7N787UUlXTNlcEC6xHam-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-62" value="MD BM" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-45" vertex="1">
-          <mxGeometry x="52" y="128" width="120" height="60" as="geometry" />
+          <mxGeometry x="74" y="128" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-67" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-45" vertex="1">
-          <mxGeometry x="280" y="128" width="120" height="60" as="geometry" />
+          <mxGeometry x="302" y="128" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-68" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-45" vertex="1">
-          <mxGeometry x="410" y="128" width="120" height="60" as="geometry" />
+          <mxGeometry x="432" y="128" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8QePTbEI3nrJSYXI_bpr-4" value="Slave" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7N787UUlXTNlcEC6xHam-45" source="04456FXk7IYrC3aViEbB-1" target="8QePTbEI3nrJSYXI_bpr-1">
+        <mxCell id="8QePTbEI3nrJSYXI_bpr-4" value="Slave" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="7N787UUlXTNlcEC6xHam-45" source="04456FXk7IYrC3aViEbB-1" target="8QePTbEI3nrJSYXI_bpr-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="04456FXk7IYrC3aViEbB-1" value="Massoth 8170001FM&lt;br&gt;LS2" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-45" vertex="1">
-          <mxGeometry x="280" y="38" width="170" height="60" as="geometry" />
+          <mxGeometry x="302" y="38" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="04456FXk7IYrC3aViEbB-5" value="Massoth 8170001FM&lt;br&gt;LS1" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-45" vertex="1">
-          <mxGeometry x="52" y="38" width="170" height="60" as="geometry" />
+          <mxGeometry x="74" y="38" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-37" value="Slave" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="7N787UUlXTNlcEC6xHam-45" source="04456FXk7IYrC3aViEbB-5" target="04456FXk7IYrC3aViEbB-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -111,16 +114,16 @@
             <mxPoint x="760" y="68" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8QePTbEI3nrJSYXI_bpr-1" value="Massoth 8170001FM&lt;br&gt;LS3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-45">
+        <mxCell id="8QePTbEI3nrJSYXI_bpr-1" value="Massoth 8170001FM&lt;br&gt;LS3" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-45" vertex="1">
           <mxGeometry x="570" y="38" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8QePTbEI3nrJSYXI_bpr-5" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7N787UUlXTNlcEC6xHam-45">
+        <mxCell id="8QePTbEI3nrJSYXI_bpr-5" value="Massoth 8170501&lt;br&gt;BM" style="rounded=0;whiteSpace=wrap;html=1;" parent="7N787UUlXTNlcEC6xHam-45" vertex="1">
           <mxGeometry x="570" y="128" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-58" value="20m RJ11 kabel" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="59" y="410" as="sourcePoint" />
-            <mxPoint x="60" y="181" as="targetPoint" />
+            <mxPoint x="66" y="412" as="sourcePoint" />
+            <mxPoint x="67" y="183" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-59" value="Massoth CS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -131,7 +134,7 @@
             <mxPoint x="386" y="748" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8QePTbEI3nrJSYXI_bpr-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="8QePTbEI3nrJSYXI_bpr-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="780" y="410" as="sourcePoint" />
             <mxPoint x="760" y="409.75" as="targetPoint" />
