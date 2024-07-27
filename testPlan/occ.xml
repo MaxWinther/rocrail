@@ -24,23 +24,23 @@
   <occ bkid="bk9" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHsp4n" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504243"/>
   <occ bkid="bkHsp4s" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504244"/>
-  <occ bkid="bkIsp1" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1718389068"/>
-  <occ bkid="bkIsp3" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1718389615"/>
+  <occ bkid="bkIsp1" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1721313698"/>
+  <occ bkid="bkIsp3" auto="false" closed="false" placing="2" blockenterside="2" lcid="Ge 4/4 625" arrivetime="1721313811"/>
   <occ bkid="bkHsp5n" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504244"/>
   <occ bkid="bkHsp5s" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1555504245"/>
-  <occ bkid="bkIspHn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1718389647"/>
-  <occ bkid="bkspHLn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1718389566"/>
-  <occ bkid="bkspHInw" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1718389615"/>
+  <occ bkid="bkIspHn" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1721313776"/>
+  <occ bkid="bkspHLn" auto="false" closed="false" placing="1" blockenterside="2" lcid="Ge 6/6 I 413 Krokodille" arrivetime="1721313786"/>
+  <occ bkid="bkspHInw" lcid="" auto="false" closed="true" placing="0" blockenterside="0" arrivetime="1721132492"/>
   <occ bkid="bkLsp1n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1718389594"/>
+  <occ bkid="bkLsp1s" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1721313811"/>
   <occ bkid="bkIspHsw" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
-  <occ bkid="bkHsp1" auto="false" closed="false" placing="1" blockenterside="1" lcid="Ge 4/4 625" arrivetime="1718389647"/>
-  <occ bkid="bkHsp2" auto="false" closed="true" placing="0" blockenterside="0" lcid="" arrivetime="1556093499"/>
-  <occ bkid="bkHsp3" lcid="Ge 4/4 619" auto="false" closed="false" placing="1" blockenterside="1" arrivetime="1718388568"/>
-  <occ bkid="bkHspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1718389560"/>
+  <occ bkid="bkHsp1" auto="false" closed="false" placing="1" blockenterside="1" lcid="G 3/4 1" arrivetime="1721313776"/>
+  <occ bkid="bkHsp2" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1721313524"/>
+  <occ bkid="bkHsp3" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1721313731"/>
+  <occ bkid="bkHspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1721313841"/>
   <occ bkid="bkHsp4" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkLsp2n" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
   <occ bkid="bkHspHs" lcid="" auto="false" closed="false" placing="0" blockenterside="0" arrivetime="1550216256"/>
-  <occ bkid="bkLsp2s" auto="false" closed="false" placing="0" blockenterside="0" lcid="" arrivetime="1716662762"/>
+  <occ bkid="bkLsp2s" auto="false" closed="false" placing="1" blockenterside="2" lcid="Ge 6/6 I 413 Krokodille" arrivetime="1721313775"/>
   <occ bkid="bkTspHe" lcid="" auto="false" closed="false" placing="0" blockenterside="0"/>
 </modocc>
