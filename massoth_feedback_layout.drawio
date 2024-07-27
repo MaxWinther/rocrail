@@ -74,8 +74,8 @@
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="197" y="410" as="sourcePoint" />
-            <mxPoint x="67" y="410" as="targetPoint" />
+            <mxPoint x="196" y="411" as="sourcePoint" />
+            <mxPoint x="66" y="411" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7N787UUlXTNlcEC6xHam-45" value="Sø station" style="swimlane;" parent="1" vertex="1">
