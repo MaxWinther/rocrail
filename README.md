@@ -220,7 +220,7 @@ The property
 - Unzip into ```sudo unzip -u Rocrail-PiOS11-ARMHF.zip -d /opt/rocrail-[VERSION]-[DDMMYYY]```
 - Remove old symbol-link ```sudo  rm /opt/rocrail```
 - Create net symbol-link ```sudo  ln -s rocrail-[DD-MM-YYY] rocrail``` in opt-folder
-- Create symbol-link in new folder to rocrai-bin like ```sudo ln -s bin/rocrail roctail``` to make init.d work
+- Create symbol-link in new folder to rocrai-bin like ```sudo ln -s bin/rocrail rocrail``` to make init.d work
 
 ### Setup
 Installed and runing from 
