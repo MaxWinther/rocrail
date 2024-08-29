@@ -223,14 +223,14 @@ The property
 - Create symbol-link in new folder to rocrai-bin like ```sudo ln -s bin/rocrail rocrail``` to make init.d work
 
 ### Setup
-Installed and runing from 
+Installed and runing from aka working-directory
 ```
 /home/pi/rocrail/testPlan
 ```
 
-Symbolic links in working directory
-- web ```ln -s /home/pi/Rocrail/web web```
-- svg ```ln -s /home/pi/Rocrail/svg svg```
+Symbolic links in working directory, only done once
+- web ```ln -s /opt/rocrail/web web```
+- svg ```ln -s /opt/rocrai/svg svg```
 
 ### Start/stop
 - Stop: ```sudo /etc/init.d/rocraild stop```
