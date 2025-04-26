@@ -241,3 +241,7 @@ Symbolic links in working directory, only done once
 
 ### Setup
 Symbolic links created by installation
+
+After new installation of rocrail channges svg to
+
+```/Applications/Rocrail.app/Contents/Resources/svg```
